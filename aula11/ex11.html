@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fronteira</title>
+</head>
+<body>
+    <h1>Sistema de estrangeiros</h1>
+    Nacionalidade do fulano <input type="text" name="txtnasc" id="txtnasc">
+    <input type="button" value="verificar" onclick = "verificar()">
+    <div id = "res">
+
+    </div>
+
+
+<script>
+    
+
+    function verificar(){
+        var txtnasc =window.document.querySelector("input#txtnasc")
+        var res = window.document.querySelector("div#res")
+        var nasc = (txtnasc.value)
+        res.innerHTML = `<p>Nasceu no(na) <strong>${nasc}</strong></p>`
+        
+        if (nasc == "Brasil"){
+            res.innerHTML += `<p>Você é Brasileiro</p>`
+        } else {
+            res.innerHTML += `<p> Você é estrangeiro </p>`
+        }
+        
+
+    }
+</script>
+</body>
+</html>
+

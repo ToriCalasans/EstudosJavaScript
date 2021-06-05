@@ -1,0 +1,44 @@
+body{
+    background: rgb(79, 79, 230);
+    font: normal 15pt Tahoma;
+    
+}
+
+header{
+    color: white;
+    text-align: center;
+
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.418);
+
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+img	{
+    width:	150px;
+    height:	150px;
+    border-radius:	100%;
+    margin-left:	auto;
+    margin-right:	auto;
+    display:	block;
+    transform:	translateY(-50%);
+    border:	8px	solid	white;
+    position: absolute;
+    left: 90px; /* posiciona a 90px para a esquerda */ 
+    right: 90px;  /* posiciona a 90px para a direita */ 
+	top: 400px; /* posiciona a 70px para baixo */
+}

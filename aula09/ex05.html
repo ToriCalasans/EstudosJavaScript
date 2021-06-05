@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        body{
+            background: rgb(172, 236, 172);
+            color: white;
+            font: normal 18pt Tahoma;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com javaScript </h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong>em javaScript </p>
+    <div id="mensagem"> Clique me mim</div>
+    <div class="msg"> Clica nesse</div>
+
+    <script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName("p")[0]
+        var d = window.document.getElementById("mensagem")
+        var d = window.document.querySelector("div#mensagem") //Toda div é representada por uma # toda classe por um .
+
+      /*window.document.write('Está escrito assim:' + p1.innerText)
+        corpo.style.background = 'red' 
+        p1.style.color = 'blue'
+        document.write(p1.innerHTML)
+        document.write(p1.innerText)
+        window.alert(p1.innerText)
+        d.style.background = "green"
+        d.innerText = "Estou aguardando..."
+        window.document.getElementById("mensagem").innerText = "Ola"
+        window.document.getElementsByClassName("msg")
+        */
+        d.style.color = "blue"
+    </script>
+</body>
+</html>
