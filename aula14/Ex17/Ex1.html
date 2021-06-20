@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercicios</title>
+    <link rel="stylesheet" href="estilo.css"> 
+</head>
+<body>
+    <header>
+        <h1>Contador</h1>
+    </header>
+
+    <section id="sessao">
+        <div id="dados">
+                <p>
+                    <label for="inicio">Inicio:
+                    <input type="number" id="txtinicio" name="inicio"  min="0"> 
+                    </label>
+                </p>
+                <p>
+                    <label for="fim">Fim:
+                    <input type="number" id="txtfim" name="fim">
+                    </label>
+                </p>
+                <p>
+                    <label for="passo">Passo:
+                    <input type="number" id="txtpasso" name="passo"> 
+                    </label>
+                </p>
+            
+            <p><input type="button"  value="contar" onclick="contar()"></p>
+
+        </div>
+        
+        <div id='res'>
+        <P>Preparando contagem...</P>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; CursoemVideo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
