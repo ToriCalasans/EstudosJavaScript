@@ -1,0 +1,110 @@
+body{
+    background: rgb(79, 79, 230);
+    font: normal 15pt Tahoma;
+    
+}
+
+header{
+    color: white;
+    text-align: center;
+
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 16px;
+    width: 500px;
+    height: 390px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.418);
+
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+#btnTabela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 40px;
+}
+
+#tabela{
+    
+    padding-bottom: 1px;
+    padding-top: 1px;
+    width: 340px;
+    height: 230px;
+    align-items: center;  
+    display: flex;
+    justify-content: center; 
+}
+
+#texto{
+    width: 342px;
+    height: 60px;
+    padding-top: 1px;
+}
+
+#dados{
+    padding-bottom: 1px;
+    padding-top: 1px;
+    width: 342px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button{
+    box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:10px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+    border: ghostwhite;
+}
+#button2{
+    box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:5px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+    border: ghostwhite;
+}
+
+#fnum{
+    border-radius:5px;
+    border-right-color: rgb(110, 109, 109);
+    border-bottom-color: rgb(110, 109, 109);
+    border-left-color: rgb(110, 109, 109);
+    border-top-color: rgb(110, 109, 109);
+}
+#flista{
+    border-radius:5px;
+    width: 330px;
+}
